@@ -16,7 +16,7 @@ export const defineVarNameInGlobalCss = plugin.withOptions(
 );
 
 /**
- * @type {Record<string, string>} theme
+ * @param {Record<string, string>} theme
  */
 export function generateVarNames(theme) {
   return Object.fromEntries(
@@ -25,7 +25,7 @@ export function generateVarNames(theme) {
 }
 
 /**
- * @type {Record<string, string>} theme
+ * @param {Record<string, string>} theme
  */
 function toCssVariables(theme) {
   return Object.fromEntries(
