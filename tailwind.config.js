@@ -12,7 +12,7 @@ const {
   langPlugin,
 } = require("./src/第7章_Tailwind_CSSをカスタマイズする/langPlugin");
 
-const myColorTheme = require("./src/myColorTheme");
+const myColorTheme = require("./src/第7章_Tailwind_CSSをカスタマイズする/myColorTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
