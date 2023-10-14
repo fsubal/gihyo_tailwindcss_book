@@ -1,10 +1,20 @@
-import { trimmedTextPlugin } from "./src/第7章_Tailwind_CSSをカスタマイズする/trimmedTextPlugin";
+const {
+  trimmedTextPlugin,
+} = require("./src/第7章_Tailwind_CSSをカスタマイズする/trimmedTextPlugin");
+
+const {
+  defineVarNameInGlobalCss,
+  generateVarNames,
+} = require("./src/第7章_Tailwind_CSSをカスタマイズする/cssVariablePlugin");
+
+const myColorTheme = require("./src/myColorTheme");
 
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: ["src/index.html"],
   theme: {
+    colors: generateVarNames(myColorTheme.light),
     extend: {},
   },
-  plugins: [trimmedTextPlugin],
+  plugins: [trimmedTextPlugin, defineVarNameInGlobalCss(myColorTheme)],
 };
