@@ -79,9 +79,9 @@ indent_style = space
 indent_size = 4
 
 # XHTML - http://www.w3.org/TR/xhtml1/
-[*.xhtml]
+[*.html]
 indent_style = space
-indent_size = 4
+indent_size = 2
 
 # YAML - http://yaml.org/
 [{*.yml,*.yaml}]
