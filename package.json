@@ -10,6 +10,6 @@
   "license": "ISC",
   "devDependencies": {
     "prettier": "latest",
-    "tailwindcss": "0.0.0-insiders.44fb67b"
+    "tailwindcss": "insiders"
   }
 }
