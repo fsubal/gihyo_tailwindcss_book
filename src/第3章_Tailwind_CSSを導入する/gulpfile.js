@@ -7,5 +7,5 @@ gulp.task("tailwindcss:build", () =>
   gulp
     .src("../main.css")
     .pipe(postcss([tailwindcss, autoprefixer]))
-    .pipe(gulp.dest("../../dist/css")),
+    .pipe(gulp.dest("../../dist")),
 );

@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "build:cli": "tailwindcss build --input src/main.css --output dist/main.css",
-    "build:webpack": "",
+    "build:webpack": "webpack build --config src/第3章_Tailwind_CSSを導入する/webpack.config.js --progress",
     "build:vite": "",
     "build:gulp": "gulp tailwindcss:build --gulpfile src/第3章_Tailwind_CSSを導入する/gulpfile.js"
   },
@@ -12,8 +12,10 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.16",
+    "css-loader": "^6.8.1",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.1",
+    "mini-css-extract-plugin": "^2.7.6",
     "postcss-loader": "^7.3.3",
     "prettier": "latest",
     "tailwindcss": "insiders",
