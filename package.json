@@ -2,14 +2,22 @@
   "name": "gihyo_tailwindcss_book",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "tailwindcss build --input src/index.css --output dist/index.css"
+    "build:cli": "tailwindcss build --input src/main.css --output dist/main.css",
+    "build:webpack": "",
+    "build:vite": "",
+    "build:gulp": "gulp tailwindcss:build --gulpfile src/第3章_Tailwind_CSSを導入する/gulpfile.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "postcss-loader": "^7.3.3",
     "prettier": "latest",
-    "tailwindcss": "insiders"
+    "tailwindcss": "insiders",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }
