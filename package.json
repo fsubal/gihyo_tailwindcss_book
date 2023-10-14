@@ -5,7 +5,6 @@
   "scripts": {
     "build:cli": "tailwindcss build --input src/main.css --output dist/main.css",
     "build:webpack": "webpack build --config src/第3章_Tailwind_CSSを導入する/webpack.config.js --progress",
-    "build:vite": "",
     "build:gulp": "gulp tailwindcss:build --gulpfile src/第3章_Tailwind_CSSを導入する/gulpfile.js"
   },
   "author": "",
