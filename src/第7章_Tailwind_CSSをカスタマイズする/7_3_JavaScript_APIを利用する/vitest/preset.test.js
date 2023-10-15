@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
 
-import preset from "../tailwind.config.mjs";
+import preset from "../tailwind.config.js";
 import { extractClassNames } from "../extractClassNames";
 
 const input = `

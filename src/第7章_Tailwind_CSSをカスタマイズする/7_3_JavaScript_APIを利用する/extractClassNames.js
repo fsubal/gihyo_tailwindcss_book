@@ -34,7 +34,6 @@ export async function extractClassNames(input, preset) {
 
   // CSSをパースして構文木を走査し、セレクタからクラス名を得る
   // 実装にはpostcss-selector-parserなどのライブラリを用いる
-  // （細かい実装はこのあと作る）
   return getAllClassNames(result);
 }
 
