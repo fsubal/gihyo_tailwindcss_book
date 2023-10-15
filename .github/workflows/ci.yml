@@ -25,11 +25,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
-      - run: npx run-s build:* > $GITHUB_WORKSPACE/build.log
-      - run: npx run-s test:* > $GITHUB_WORKSPACE/test.log
+      - run: npx run-s build:* 2> $GITHUB_WORKSPACE/build.stderr.log
+      - run: npx run-s test:* 2> $GITHUB_WORKSPACE/test.stderr.log
 
       - run: |
-          if grep -q "warn - " <(cat $GITHUB_WORKSPACE/*.log); then
-            echo 'build has unexpected warning'
+          if grep -q "warn" <(cat $GITHUB_WORKSPACE/*.log); then
+            echo 'looks like tailwind build has unexpected warnings'
             exit 1
           end

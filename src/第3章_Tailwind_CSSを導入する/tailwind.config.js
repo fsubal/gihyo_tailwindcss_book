@@ -5,7 +5,7 @@ module.exports = {
     // プロジェクトルートにないtailwind.config.jsを使っているからです（説明の都合上フォルダを章ごとに分けております）
     // tailwind.config.jsをふつうにプロジェクトルートに置いてるケースでは特に真似する必要はありません
     relative: true,
-    files: ["./src/index.html"],
+    files: ["./srca/index.html"],
   },
   theme: {
     extend: {},
