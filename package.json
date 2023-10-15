@@ -7,7 +7,7 @@
     "build:webpack": "webpack build --config src/第3章_Tailwind_CSSを導入する/webpack.config.js --progress",
     "build:gulp": "gulp tailwindcss:build --gulpfile src/第3章_Tailwind_CSSを導入する/gulpfile.js",
     "test:jest": "jest src/第7章_Tailwind_CSSをカスタマイズする/7_3_JavaScript_APIを利用する/jest/preset.test.js --config src/第7章_Tailwind_CSSをカスタマイズする/7_3_JavaScript_APIを利用する/jest/jest.config.js",
-    "test:vitest": "vitest run src/第7章_Tailwind_CSSをカスタマイズする/7_3_JavaScript_APIを利用する/vite/preset.test.js"
+    "test:vitest": "vitest run src/第7章_Tailwind_CSSをカスタマイズする/7_3_JavaScript_APIを利用する/vitest/preset.test.js"
   },
   "author": "",
   "license": "MIT",
