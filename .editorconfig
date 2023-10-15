@@ -35,7 +35,7 @@ indent_size = 2
 # Composer - https://getcomposer.org/doc/04-schema.md
 [{*.json,composer.lock}]
 indent_style = space
-indent_size = 4
+indent_size = 2
 
 # NPM - https://docs.npmjs.com/files/package.json
 # TypeScript - https://www.typescriptlang.org/
@@ -43,7 +43,7 @@ indent_size = 4
 # prettier - https://prettier.io/
 # ESlint - https://eslint.org/
 # VSCode Settings - https://code.visualstudio.com/docs/getstarted/settings
-[{**/package.json,tsconfig.json,.stylintrc,.prettierrc,.eslintrc,.vscode/*.json}]
+[{**/package.json,**/tsconfig.*json,.stylintrc,.prettierrc,.eslintrc,.vscode/*.json}]
 indent_style = space
 indent_size = 2
 
