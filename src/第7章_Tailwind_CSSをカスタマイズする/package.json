@@ -1,0 +1,18 @@
+{
+  "name": "chapter7",
+  "version": "0.0.0",
+  "description": "第7章 Tailwind CSSをカスタマイズする",
+  "scripts": {
+    "build": "run-s --print-label build:*",
+    "test": "run-s --print-label test:*",
+    "build:plugins": "tailwindcss build --config 7_4_独自のプラグインを作成する/tailwind.config.js --input 7_4_独自のプラグインを作成する/main.css --output dist/main.css",
+    "test:jest": "jest 7_3_JavaScript_APIを利用する/jest/preset.test.js --config 7_3_JavaScript_APIを利用する/jest/jest.config.js",
+    "test:vitest": "vitest run 7_3_JavaScript_APIを利用する/vitest/preset.test.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "postcss": "^8.4.31",
+    "postcss-selector-parser": "^6.0.13",
+    "vitest": "^0.34.6"
+  }
+}

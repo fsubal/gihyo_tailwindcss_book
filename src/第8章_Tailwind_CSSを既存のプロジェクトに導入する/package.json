@@ -1,0 +1,14 @@
+{
+  "name": "chapter8",
+  "version": "0.0.0",
+  "description": "第8章 Tailwind CSSを既存のプロジェクトに導入する",
+  "scripts": {
+    "build": "run-s --print-label build:*",
+    "build:chapter8": "./run.sh"
+  },
+  "devDependencies": {
+    "less": "^4.2.0",
+    "sass": "^1.69.3",
+    "stylus": "^0.60.0"
+  }
+}
