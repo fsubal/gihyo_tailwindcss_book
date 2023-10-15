@@ -25,8 +25,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
-      - run: npx run-s build:* 2> $GITHUB_WORKSPACE/build.stderr.log
-      - run: npx run-s test:* 2> $GITHUB_WORKSPACE/test.stderr.log
+      - run: npx run-s --print-label build:* 2> $GITHUB_WORKSPACE/build.stderr.log
+      - run: npx run-s --print-label test:* 2> $GITHUB_WORKSPACE/test.stderr.log
 
       - run: |
           if grep "warn" $GITHUB_WORKSPACE/*.log; then
