@@ -29,6 +29,7 @@ jobs:
       - run: npx run-s test:* 2> $GITHUB_WORKSPACE/test.stderr.log
 
       - run: |
-          if grep -q "warn" $GITHUB_WORKSPACE/*.log; then
-            echo 'Looks like tailwind build has unexpected warnings';
+          if grep "warn" $GITHUB_WORKSPACE/*.log; then
+            echo 'Looks like tailwind build has unexpected warnings'
+            exit 1
           fi
