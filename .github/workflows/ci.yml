@@ -25,5 +25,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
-      - run: npx run-s build:*
-      - run: npx run-s test:*
+      - run: npx run-s build:* > $GITHUB_WORKSPACE/build.log
+      - run: npx run-s test:* > $GITHUB_WORKSPACE/test.log
+
+      - run: |
+          if grep -q "warn - " <(cat $GITHUB_WORKSPACE/*.log); then
+            echo 'build has unexpected warning'
+            exit 1
+          end
