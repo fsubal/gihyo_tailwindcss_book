@@ -1,0 +1,17 @@
+.card {
+  @apply rounded-none;
+}
+
+@screen sm {
+  .card {
+    @apply rounded-lg;
+  }
+}
+
+.card {
+  @apply rounded-none;
+
+  @media (min-width: theme("screens.sm")) {
+    @apply rounded-lg;
+  }
+}

@@ -24,9 +24,20 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
+
       - run: npm ci
       - run: npx run-s --print-label build:* 2> $GITHUB_WORKSPACE/build.stderr.log
       - run: npx run-s --print-label test:* 2> $GITHUB_WORKSPACE/test.stderr.log
+
+      - run: |
+          npx sass src/第8章_Tailwind_CSSを既存のプロジェクトに導入する/sass/ok.scss
+          ! npx sass src/第8章_Tailwind_CSSを既存のプロジェクトに導入する/sass/ng.scss
+
+          npx lessc src/第8章_Tailwind_CSSを既存のプロジェクトに導入する/less/ok.less
+          ! npx lessc src/第8章_Tailwind_CSSを既存のプロジェクトに導入する/less/ng.less
+
+          npx stylus src/第8章_Tailwind_CSSを既存のプロジェクトに導入する/sass/ok.styl
+          ! npx stylus src/第8章_Tailwind_CSSを既存のプロジェクトに導入する/sass/ng.styl
 
       - run: |
           if grep "warn" $GITHUB_WORKSPACE/*.log; then

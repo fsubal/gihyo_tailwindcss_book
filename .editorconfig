@@ -13,7 +13,7 @@ charset = utf-8
 # Sass(SCSS) - http://sass-lang.com/
 # Stylus - https://learnboost.github.io/stylus/
 # PostCSS - https://postcss.org/
-[*.{css,scss,sass,styl,pcss}]
+[*.{css,scss,sass,styl,less,pcss}]
 indent_style = space
 indent_size = 2
 trim_trailing_whitespace = true
