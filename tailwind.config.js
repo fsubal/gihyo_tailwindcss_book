@@ -1,18 +1,18 @@
 // @ts-check
 const {
   trimmedTextPlugin,
-} = require("./src/第7章_Tailwind_CSSをカスタマイズする/trimmedTextPlugin");
+} = require("./src/第7章_Tailwind_CSSをカスタマイズする/7_4_独自のプラグインを作成する/trimmedTextPlugin");
 
 const {
   defineVarNameInGlobalCss,
   generateVarNames,
-} = require("./src/第7章_Tailwind_CSSをカスタマイズする/cssVariablePlugin");
+} = require("./src/第7章_Tailwind_CSSをカスタマイズする/7_4_独自のプラグインを作成する/cssVariablePlugin");
 
 const {
   langPlugin,
-} = require("./src/第7章_Tailwind_CSSをカスタマイズする/langPlugin");
+} = require("./src/第7章_Tailwind_CSSをカスタマイズする/7_4_独自のプラグインを作成する/langPlugin");
 
-const myColorTheme = require("./src/第7章_Tailwind_CSSをカスタマイズする/myColorTheme");
+const myColorTheme = require("./src/第7章_Tailwind_CSSをカスタマイズする/7_4_独自のプラグインを作成する/myColorTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
