@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   mode: "development",
   entry: {
-    tailwindcss: path.resolve(__dirname, "..", "main.css"),
+    tailwindcss: path.resolve(__dirname, "src", "main.css"),
   },
   output: {
     path: path.resolve(__dirname, "..", "..", "dist"),
@@ -20,7 +20,10 @@ module.exports = {
             loader: "postcss-loader",
             options: {
               postcssOptions: {
-                plugins: [require("tailwindcss"), require("autoprefixer")],
+                plugins: [
+                  require("tailwindcss")(require("./tailwind.config.js")),
+                  require("autoprefixer"),
+                ],
               },
             },
           },

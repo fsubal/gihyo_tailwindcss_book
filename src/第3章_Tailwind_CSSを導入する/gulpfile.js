@@ -5,7 +5,7 @@ const autoprefixer = require("autoprefixer");
 
 gulp.task("tailwindcss:build", () =>
   gulp
-    .src("../main.css")
-    .pipe(postcss([tailwindcss, autoprefixer]))
+    .src("src/main.css")
+    .pipe(postcss([tailwindcss("./tailwind.config.js"), autoprefixer]))
     .pipe(gulp.dest("../../dist")),
 );
