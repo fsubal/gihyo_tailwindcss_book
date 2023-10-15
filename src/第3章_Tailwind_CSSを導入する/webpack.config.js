@@ -20,13 +20,7 @@ module.exports = {
             loader: "postcss-loader",
             options: {
               postcssOptions: {
-                plugins: [
-                  // NOTICE: ここでtailwind.config.jsを明示的にrequireしているのは、
-                  // プロジェクトルートにないtailwind.config.jsを使っているからです（説明の都合上フォルダを章ごとに分けております）
-                  // tailwind.config.jsをふつうにプロジェクトルートに置いてるケースでは特に真似する必要はありません
-                  require("tailwindcss")(require("./tailwind.config.js")),
-                  require("autoprefixer"),
-                ],
+                plugins: [require("tailwindcss"), require("autoprefixer")],
               },
             },
           },
