@@ -1,4 +1,4 @@
-import preset from "../tailwind.config.js";
+import preset from "../preset";
 import { extractClassNames } from "../extractClassNames";
 
 const input = `

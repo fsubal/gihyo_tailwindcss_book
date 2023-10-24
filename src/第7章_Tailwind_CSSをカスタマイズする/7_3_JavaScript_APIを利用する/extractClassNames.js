@@ -4,7 +4,7 @@ import postcssSelectorParser from "postcss-selector-parser";
 
 /**
  * @param {string} input
- * @param {import('tailwindcss').Config} preset
+ * @param {Partial<import('tailwindcss').Config>} preset
  * @return {Promise<string[]>}
  */
 export async function extractClassNames(input, preset) {
