@@ -20,8 +20,8 @@ export async function extractClassNames(input, preset) {
       },
     ],
 
-    // 「Automatic content detection is experimental」というwarningが出るのが嫌で書いている
-    // 動作させるだけなら書く必要はありません
+    // 「Automatic content detection is experimental」というwarningが出るのが嫌で書いているだけです
+    // 動作させるだけならcontentを書く必要はありません
     content: {
       // NOTICE: ここでrelative: trueを指定しているのは、
       // プロジェクトルートにないtailwind.config.jsを使っているからです（説明の都合上フォルダを節ごとに分けております）
