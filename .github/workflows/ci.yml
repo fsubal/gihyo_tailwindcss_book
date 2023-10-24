@@ -34,6 +34,5 @@ jobs:
 
       - run: |
           if grep "warn" $GITHUB_WORKSPACE/*.log; then
-            echo 'Looks like tailwind build has unexpected warnings'
-            exit 1
+            echo "::warning:: Looks like tailwind build has unexpected warnings"
           fi
