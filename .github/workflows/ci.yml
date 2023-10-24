@@ -34,5 +34,5 @@ jobs:
 
       - run: |
           if grep "warn" $GITHUB_WORKSPACE/*.log; then
-            echo "::warning file=.github/workflows/ci.yml,line=1:: Looks like tailwind build has unexpected warnings"
+            echo "::warning:: Looks like tailwind build has unexpected warnings"
           fi
