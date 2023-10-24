@@ -2,7 +2,7 @@
 
 import { describe, test, expect } from "vitest";
 
-import preset from "../preset";
+import preset from "../my-preset";
 import { extractClassNames } from "../extractClassNames";
 
 const input = `
