@@ -1,8 +1,6 @@
 // @ts-check
 
 import { describe, test, expect } from "vitest";
-
-import preset from "../my-preset";
 import { extractClassNames } from "../extractClassNames";
 
 const input = `
@@ -10,6 +8,11 @@ const input = `
 @tailwind components;
 @tailwind utilities;
 `.trim();
+
+const preset = {
+  theme: {},
+  plugins: [],
+};
 
 describe("tailwind.config.js", () => {
   test("outputs", async () => {
