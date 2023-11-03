@@ -10,6 +10,7 @@ import postcssSelectorParser from "postcss-selector-parser";
 export async function extractClassNames(input, preset) {
   const plugin = tailwindcss({
     presets: [preset],
+    content: [{ raw: '', extension: 'html' }],
     safelist: [
       {
         // 一切purgeしない
