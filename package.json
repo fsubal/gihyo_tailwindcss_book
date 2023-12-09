@@ -17,7 +17,7 @@
     "url": "https://github.com/fsubal/gihyo_tailwindcss_book"
   },
   "devDependencies": {
-    "npm-run-all": "latest",
+    "npm-run-all2": "latest",
     "prettier": "latest",
     "tailwindcss": "insiders"
   }
