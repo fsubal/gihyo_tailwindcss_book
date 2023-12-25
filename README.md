@@ -1,1 +1,4 @@
-# gihyo_tailwindcss_book
+# 『Tailwind CSS実践入門』サンプルコード
+
+『Tailwind CSS実践入門（著: 工藤智祥、技術評論社）』のサンプルコードが置かれたリポジトリです。
+
