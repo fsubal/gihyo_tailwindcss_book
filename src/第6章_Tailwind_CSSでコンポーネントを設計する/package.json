@@ -17,7 +17,7 @@
     "classnames": "^2.3.2",
     "clsx": "^2.0.0",
     "framer-motion": "^10.16.12",
-    "lucide-react": "^0.294.0",
+    "lucide-react": "^0.303.0",
     "react": "^18.2.0",
     "react-aria": "^3.30.0",
     "react-aria-components": "^1.0.0-rc.0",
