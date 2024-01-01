@@ -10,7 +10,7 @@
     "build:gulp": "gulp tailwindcss:build"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.2",
+    "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.7",
     "autoprefixer": "^10.4.16",
     "css-loader": "^6.8.1",
