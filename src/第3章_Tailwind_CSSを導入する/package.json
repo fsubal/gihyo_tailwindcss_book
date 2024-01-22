@@ -17,7 +17,7 @@
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.1",
     "mini-css-extract-plugin": "^2.7.7",
-    "postcss": "^8.4.31",
+    "postcss": "^8.4.33",
     "postcss-cli": "^10.1.0",
     "postcss-loader": "^7.3.4",
     "webpack": "^5.89.0",
