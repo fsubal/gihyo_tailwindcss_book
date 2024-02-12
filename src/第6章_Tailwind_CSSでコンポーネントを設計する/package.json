@@ -15,7 +15,7 @@
     "@react-spring/web": "^9.7.3",
     "class-variance-authority": "^0.7.0",
     "classnames": "^2.5.1",
-    "clsx": "^2.0.0",
+    "clsx": "^2.1.0",
     "framer-motion": "^11.0.3",
     "lucide-react": "^0.303.0",
     "react": "^18.2.0",
