@@ -16,7 +16,7 @@
     "css-loader": "^7.1.2",
     "gulp": "^5.0.0",
     "gulp-postcss": "^10.0.0",
-    "mini-css-extract-plugin": "^2.9.0",
+    "mini-css-extract-plugin": "^2.9.1",
     "postcss": "^8.4.44",
     "postcss-cli": "^11.0.0",
     "postcss-loader": "^8.1.1",
