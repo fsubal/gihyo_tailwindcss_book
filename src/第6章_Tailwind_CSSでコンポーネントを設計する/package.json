@@ -35,7 +35,7 @@
     "eslint": "^9.12.0",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-react-refresh": "^0.4.12",
+    "eslint-plugin-react-refresh": "^0.4.14",
     "postcss": "^8.4.49",
     "tailwindcss": "insiders",
     "vite": "^5.4.10"
