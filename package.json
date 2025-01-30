@@ -19,6 +19,8 @@
   "devDependencies": {
     "npm-run-all2": "latest",
     "prettier": "latest",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "@tailwindcss/postcss": "latest",
+    "@tailwindcss/cli": "latest"
   }
 }
