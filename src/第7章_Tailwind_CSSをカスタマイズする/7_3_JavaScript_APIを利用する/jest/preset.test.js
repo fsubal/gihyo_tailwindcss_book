@@ -1,10 +1,6 @@
 import { extractClassNames } from "../extractClassNames";
 
-const input = `
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-`.trim();
+const input = '@import "tailwindcss";';
 
 const preset = {
   theme: {},
