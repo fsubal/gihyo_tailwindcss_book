@@ -3,6 +3,8 @@ import postcss from "postcss";
 import postcssSelectorParser from "postcss-selector-parser";
 
 /**
+ * @deprecated safelistプロパティはv4でサポートされなくなりました。この方法でのテストはv3までしか動きません。
+ *
  * @param {string} input
  * @param {Partial<import('tailwindcss').Config>} preset
  * @return {Promise<string[]>}
