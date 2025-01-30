@@ -14,11 +14,16 @@ const preset = {
   plugins: [],
 };
 
-describe("tailwind.config.js", () => {
-  test("outputs", async () => {
-    /** @type {string[]} */
-    const classNames = await extractClassNames(input, preset);
+const SUPER_DEPRECATED_NO_LONGER_SUPPORTED = describe.skip
 
-    expect(classNames).toMatchSnapshot();
+SUPER_DEPRECATED_NO_LONGER_SUPPORTED('tailwind.config.jsに対するスナップショットはv4で動かなくなりました', () => {
+  describe("tailwind.config.js", () => {
+    test("outputs", async () => {
+      /** @type {string[]} */
+      const classNames = await extractClassNames(input, preset);
+  
+      expect(classNames).toMatchSnapshot();
+    });
   });
 });
+
