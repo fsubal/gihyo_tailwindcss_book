@@ -1,4 +1,4 @@
-import tailwindcss from "tailwindcss";
+import tailwindcss from "@tailwindcss/postcss";
 import postcss from "postcss";
 import postcssSelectorParser from "postcss-selector-parser";
 

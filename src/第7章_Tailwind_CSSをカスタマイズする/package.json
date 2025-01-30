@@ -5,7 +5,7 @@
   "scripts": {
     "build": "run-s --print-label build:*",
     "test": "run-s --print-label test:*",
-    "build:plugins": "tailwindcss build --config 7_4_独自のプラグインを作成する/tailwind.config.js --input 7_4_独自のプラグインを作成する/main.css --output dist/main.css",
+    "build:plugins": "tailwindcss --config 7_4_独自のプラグインを作成する/tailwind.config.js --input 7_4_独自のプラグインを作成する/main.css --output dist/main.css",
     "test:jest": "jest 7_3_JavaScript_APIを利用する/jest/preset.test.js --config 7_3_JavaScript_APIを利用する/jest/jest.config.js",
     "test:vitest": "vitest run 7_3_JavaScript_APIを利用する/vitest/preset.test.js"
   },

@@ -6,6 +6,9 @@
   "workspaces": [
     "src/*"
   ],
+  "engines": {
+    "node": "20"
+  },
   "scripts": {
     "build": "npm run build --workspaces --if-present",
     "test": "npm run test --workspaces --if-present"
@@ -19,6 +22,8 @@
   "devDependencies": {
     "npm-run-all2": "latest",
     "prettier": "latest",
-    "tailwindcss": "insiders"
+    "tailwindcss": "latest",
+    "@tailwindcss/postcss": "latest",
+    "@tailwindcss/cli": "latest"
   }
 }

@@ -4,7 +4,7 @@
   "description": "第3章 Tailwind CSSを導入する",
   "scripts": {
     "build": "run-s --print-label build:*",
-    "build:tailwind-cli": "tailwindcss build --config tailwind.config.js --input src/main.css --output dist/main.css",
+    "build:tailwind-cli": "tailwindcss --config tailwind.config.js --input src/main.css --output dist/main.css",
     "build:postcss-cli": "postcss src/main.css --output dist/main.css",
     "build:webpack": "webpack build --progress",
     "build:gulp": "gulp tailwindcss:build"
