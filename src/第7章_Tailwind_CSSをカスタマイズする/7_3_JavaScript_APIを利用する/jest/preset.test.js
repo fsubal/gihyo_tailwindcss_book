@@ -28,4 +28,4 @@ SUPER_DEPRECATED_NO_LONGER_SUPPORTED('tailwind.config.jsに対するスナップ
       expect(classNames).toMatchSnapshot();
     });
   });
-})
+});
