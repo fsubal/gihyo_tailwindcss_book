@@ -42,7 +42,7 @@ export function MyDialog({
           className={classNames(
             "w-full",
             "max-w-sm",
-            "rounded",
+            "rounded-sm",
             "bg-white",
             "p-6",
           )}
