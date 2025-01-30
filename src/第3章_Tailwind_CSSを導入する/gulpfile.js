@@ -1,6 +1,6 @@
 const gulp = require("gulp");
 const postcss = require("gulp-postcss");
-const tailwindcss = require("tailwindcss");
+const tailwindcss = require("@tailwindcss/postcss");
 const autoprefixer = require("autoprefixer");
 
 gulp.task("tailwindcss:build", () =>
