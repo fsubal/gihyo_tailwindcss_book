@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@config "../tailwind.config.js"
+
 @layer base {
   :root {
     --background: 0 0% 100%;
