@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "jest": "^29.7.0",
-    "postcss": "^8.4.49",
+    "postcss": "^8.5.1",
     "postcss-selector-parser": "^7.0.0",
     "tailwindcss": "insiders",
     "vitest": "^2.1.8"
