@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
-    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-slot": "^1.1.2",
     "@react-spring/web": "^9.7.5",
     "class-variance-authority": "^0.7.1",
     "classnames": "^2.5.1",
