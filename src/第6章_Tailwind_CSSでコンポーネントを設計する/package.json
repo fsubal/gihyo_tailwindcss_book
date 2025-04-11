@@ -19,7 +19,7 @@
     "framer-motion": "^12.6.2",
     "lucide-react": "^0.486.0",
     "react": "^19.0.0",
-    "react-aria": "^3.37.0",
+    "react-aria": "^3.38.1",
     "react-aria-components": "^1.6.0",
     "react-dom": "^19.1.0",
     "tailwind-merge": "^3.2.0",
