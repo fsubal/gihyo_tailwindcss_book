@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@headlessui/react": "^2.2.3",
+    "@headlessui/react": "^2.2.4",
     "@radix-ui/react-slot": "^1.2.2",
     "@react-spring/web": "^10.0.1",
     "class-variance-authority": "^0.7.1",
