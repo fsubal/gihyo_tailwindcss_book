@@ -21,7 +21,7 @@
     "react": "^19.1.1",
     "react-aria": "^3.41.1",
     "react-aria-components": "^1.11.0",
-    "react-dom": "^19.1.0",
+    "react-dom": "^19.1.1",
     "tailwind-merge": "^3.3.1",
     "tailwind-variants": "^3.1.0",
     "tailwindcss-animate": "^1.0.7"
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@types/node": "^24.3.0",
     "@types/react": "^19.1.10",
-    "@types/react-dom": "^19.1.6",
+    "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.1",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.34.0",
