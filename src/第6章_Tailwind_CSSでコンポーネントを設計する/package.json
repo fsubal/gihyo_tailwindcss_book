@@ -21,7 +21,7 @@
     "react": "^19.2.6",
     "react-aria": "^3.49.0",
     "react-aria-components": "^1.17.0",
-    "react-dom": "^19.2.6",
+    "react-dom": "^19.2.7",
     "tailwind-merge": "^3.5.0",
     "tailwind-variants": "^3.2.2",
     "tailwindcss-animate": "^1.0.7"
