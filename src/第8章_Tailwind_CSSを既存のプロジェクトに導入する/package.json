@@ -7,7 +7,7 @@
     "build:chapter8": "./run.sh"
   },
   "devDependencies": {
-    "less": "^4.6.4",
+    "less": "^4.6.6",
     "sass": "^1.99.0",
     "stylus": "^0.64.0"
   }
