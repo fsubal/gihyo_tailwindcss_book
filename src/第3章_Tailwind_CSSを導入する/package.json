@@ -20,7 +20,7 @@
     "postcss": "^8.5.15",
     "postcss-cli": "^11.0.1",
     "postcss-loader": "^8.2.1",
-    "webpack": "^5.106.1",
+    "webpack": "^5.109.0",
     "webpack-cli": "^7.2.1"
   }
 }
